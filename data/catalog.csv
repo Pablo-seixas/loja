@@ -1,0 +1,11 @@
+product_id,title,categories,price
+p001,Smartphone 128GB 6.5" Android,informatica;smartphones,1499.00
+p002,Notebook 15" i5 8GB 256SSD,informatica;notebooks,2799.00
+p003,Fone Bluetooth Cancelamento de Ruído,acessorios;audio,299.00
+p004,Smart TV 50" 4K HDR,eletronicos;tv,2199.00
+p005,Mouse Gamer RGB 16000DPI,acessorios;perifericos,199.00
+p006,Soundbar 2.1 Canais,eletronicos;audio,799.00
+p007,Impressora Multifuncional Wi-Fi,informatica;perifericos,549.00
+p008,Cafeteira Espresso Automática,eletrodomesticos;cozinha,899.00
+p009,Leitor Digital 6",eletronicos;leitores,499.00
+p010,Monitor 27" 144Hz IPS,informatica;monitores,1799.00

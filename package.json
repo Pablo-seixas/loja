@@ -1,0 +1,31 @@
+{
+  "name": "loja",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "report": "tsx scripts/test_ml.ts",
+    "bundle": "tsup src/server.ts --format esm --target node20 --platform node --minify --sourcemap --out-dir build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API de sugestão de vendas em Node.js + TypeScript",
+  "dependencies": {
+    "fastify": "^5.5.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
